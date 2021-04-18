@@ -55,7 +55,7 @@ PODS:
 DEPENDENCIES:
   - FBSnapshotTestCase
   - LKCommonUIModule (from `../`)
-  - LKMacroCategoryModule (from `../../LKMacroCategoryModule`)
+  - LKMacroCategoryModule (from `https://github.com/kaige1123/LKMacroCategoryModule.git`)
 
 SPEC REPOS:
   trunk:
@@ -67,7 +67,12 @@ EXTERNAL SOURCES:
   LKCommonUIModule:
     :path: "../"
   LKMacroCategoryModule:
-    :path: "../../LKMacroCategoryModule"
+    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
+
+CHECKOUT OPTIONS:
+  LKMacroCategoryModule:
+    :commit: a576fdaabc46ea39863a3c865ed1f0cdb445b6ea
+    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -76,6 +81,6 @@ SPEC CHECKSUMS:
   LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 4367db9020eeb9b6d12fd7c0a87b82484c9fde10
+PODFILE CHECKSUM: b5fb3dfb763ae90604b8cbd11a07abcc32bf63c0
 
 COCOAPODS: 1.10.1
