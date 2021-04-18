@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		000A8E64952F0E69F400B9B5 /* Pods-LKCommonUIModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKCommonUIModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LKCommonUIModule_Tests/Pods-LKCommonUIModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		077700EE17F253934A045ABE /* LKCommonUIModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKCommonUIModule.podspec; path = ../LKCommonUIModule.podspec; sourceTree = "<group>"; };
+		077700EE17F253934A045ABE /* LKCommonUIModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKCommonUIModule.podspec; path = ../LKCommonUIModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D497B8E2F1FDECDF412B258 /* Pods-LKCommonUIModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKCommonUIModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-LKCommonUIModule_Example/Pods-LKCommonUIModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4FCF58D09A14284E8157EB5A /* Pods-LKCommonUIModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKCommonUIModule_Example.release.xcconfig"; path = "Target Support Files/Pods-LKCommonUIModule_Example/Pods-LKCommonUIModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LKCommonUIModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKCommonUIModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		617DABE82045E4C6F35AF1D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		617DABE82045E4C6F35AF1D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D6570EE873F57C00D942948 /* Pods_LKCommonUIModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKCommonUIModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6516ACD66E84D822DC4A8AA /* Pods-LKCommonUIModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKCommonUIModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-LKCommonUIModule_Tests/Pods-LKCommonUIModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E741B068DAF05658457B3201 /* Pods_LKCommonUIModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKCommonUIModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F22E7FCE93C9CBD8A0DA366A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F22E7FCE93C9CBD8A0DA366A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				000A8E64952F0E69F400B9B5 /* Pods-LKCommonUIModule_Tests.debug.xcconfig */,
 				B6516ACD66E84D822DC4A8AA /* Pods-LKCommonUIModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,11 +303,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LKCommonUIModule_Example/Pods-LKCommonUIModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/LKCommonUIModule/LKCommonUIModule.framework",
+				"${BUILT_PRODUCTS_DIR}/LKMacroCategoryModule/LKMacroCategoryModule.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKCommonUIModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKMacroCategoryModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

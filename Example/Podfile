@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'LKCommonUIModule_Example' do
   pod 'LKCommonUIModule', :path => '../'
+  pod 'LKMacroCategoryModule', :path => '../../LKMacroCategoryModule'
 
   target 'LKCommonUIModule_Tests' do
     inherit! :search_paths

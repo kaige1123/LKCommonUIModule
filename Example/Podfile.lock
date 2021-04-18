@@ -1,0 +1,81 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LKCommonUIModule (1):
+    - AFNetworking
+    - LKCommonUIModule/LGErrorView (= 1)
+    - LKCommonUIModule/LGLoading (= 1)
+    - LKCommonUIModule/LGSegmentedControl (= 1)
+    - LKCommonUIModule/LGShare (= 1)
+    - LKCommonUIModule/LGToast (= 1)
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGErrorView (1):
+    - AFNetworking
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGLoading (1):
+    - AFNetworking
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGSegmentedControl (1):
+    - AFNetworking
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGShare (1):
+    - AFNetworking
+    - LKCommonUIModule/LGToast
+    - LKMacroCategoryModule
+    - Masonry
+  - LKCommonUIModule/LGToast (1):
+    - AFNetworking
+    - LKMacroCategoryModule
+    - Masonry
+  - LKMacroCategoryModule (1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LKCommonUIModule (from `../`)
+  - LKMacroCategoryModule (from `../../LKMacroCategoryModule`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FBSnapshotTestCase
+    - Masonry
+
+EXTERNAL SOURCES:
+  LKCommonUIModule:
+    :path: "../"
+  LKMacroCategoryModule:
+    :path: "../../LKMacroCategoryModule"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LKCommonUIModule: 0bd2a6780c795b2cdcad122cc88b37c93d42d937
+  LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 4367db9020eeb9b6d12fd7c0a87b82484c9fde10
+
+COCOAPODS: 1.10.1
