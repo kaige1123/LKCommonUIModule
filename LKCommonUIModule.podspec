@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKCommonUIModule'
-  s.version          = '1'
+  s.version          = '2'
   s.summary          = 'A short description of LKCommonUIModule.'
 
 # This description is used to generate tags and improve search results.
@@ -46,26 +46,26 @@ TODO: Add long description of the pod here.
   
   s.prefix_header_contents = '#import "Masonry.h"','#import "UIKit+AFNetworking.h"','#import "LGMacros.h"'
   
-  s.subspec 'LGErrorView' do |ss|
-      ss.source_files = 'LKCommonUIModule/Classes/LGErrorView/*'
-   end
-  
-  s.subspec 'LGToast' do |ss|
-     ss.source_files = 'LKCommonUIModule/Classes/LGToast/*'
-  end
-  
-  s.subspec 'LGLoading' do |ss|
-     ss.source_files = 'LKCommonUIModule/Classes/LGLoading/*'
-  end
-  
-  s.subspec 'LGSegmentedControl' do |ss|
-     ss.source_files = 'LKCommonUIModule/Classes/LGSegmentedControl/*'
-  end
-  
-  s.subspec 'LGShare' do |ss|
-    ss.dependency 'LKCommonUIModule/LGToast'
-    ss.source_files = 'LKCommonUIModule/Classes/LGShare/*'
-  end
+#  s.subspec 'LGErrorView' do |ss|
+#      ss.source_files = 'LKCommonUIModule/Classes/LGErrorView/*'
+#   end
+#
+#  s.subspec 'LGToast' do |ss|
+#     ss.source_files = 'LKCommonUIModule/Classes/LGToast/*'
+#  end
+#
+#  s.subspec 'LGLoading' do |ss|
+#     ss.source_files = 'LKCommonUIModule/Classes/LGLoading/*'
+#  end
+#
+#  s.subspec 'LGSegmentedControl' do |ss|
+#     ss.source_files = 'LKCommonUIModule/Classes/LGSegmentedControl/*'
+#  end
+#
+#  s.subspec 'LGShare' do |ss|
+#    ss.dependency 'LKCommonUIModule/LGToast'
+#    ss.source_files = 'LKCommonUIModule/Classes/LGShare/*'
+#  end
   
   
 end

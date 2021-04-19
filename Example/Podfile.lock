@@ -19,33 +19,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LKCommonUIModule (1):
-    - AFNetworking
-    - LKCommonUIModule/LGErrorView (= 1)
-    - LKCommonUIModule/LGLoading (= 1)
-    - LKCommonUIModule/LGSegmentedControl (= 1)
-    - LKCommonUIModule/LGShare (= 1)
-    - LKCommonUIModule/LGToast (= 1)
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGErrorView (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGLoading (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGSegmentedControl (1):
-    - AFNetworking
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGShare (1):
-    - AFNetworking
-    - LKCommonUIModule/LGToast
-    - LKMacroCategoryModule
-    - Masonry
-  - LKCommonUIModule/LGToast (1):
+  - LKCommonUIModule (2):
     - AFNetworking
     - LKMacroCategoryModule
     - Masonry
@@ -77,7 +51,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LKCommonUIModule: 0bd2a6780c795b2cdcad122cc88b37c93d42d937
+  LKCommonUIModule: 99636051ac0fe91052c8dfad6fe72df7219b1926
   LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
